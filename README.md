@@ -63,6 +63,7 @@ Modify the behavior of this shield by adjusting these options in your personal c
 | `CONFIG_NICE_VIEW_GEM_WPM_FIXED_RANGE_MAX` | int  | You can adjust the maximum value of the fixed range to align with your current goal.                                                                                                                                                                              | 100     |
 | `CONFIG_NICE_VIEW_GEM_ANIMATION`           | bool | If you find the animation distracting (or want to save on battery usage), you can turn it off by setting this option to `n`. It will instead pick a random frame of the animation every time you restart your keyboard.                                           | y       |
 | `CONFIG_NICE_VIEW_GEM_ANIMATION_MS`        | int  | Alternatively, you can slow down the animation. A high value, such as 96000, slows the animation considerably, showing the next frame every couple of seconds. The animation consists of 16 frames, and the default value of 960 milliseconds plays it at 60 fps. | 960     |
+| `CONFIG_NICE_VIEW_GEM_ANIMATION_FRAME` | int | If you choose to keep the animation frozen, you can set this index to a specific crystal frame (frames 1-16) you want to have displayed | 0 |
 
 ## Credits
 
